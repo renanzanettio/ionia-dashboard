@@ -23,6 +23,45 @@
     border-radius: 8px;
 }
 
+
+.textback{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600; 
+    top: 40%;
+    left: -14%;
+    color: #ffa500;
+    -webkit-text-stroke: 1px #0b1d1c63;
+    text-shadow: 3px 5px 4px #00000017;
+}
+
+.textback:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600; 
+    top: 20%;
+    left: -14%;
+    color: #ffa500;
+    -webkit-text-stroke: 1px #0b1d1c63;
+    text-shadow: 3px 5px 4px #00000017;
+}
+
+.back{
+    position: relative;
+    width: 20%;
+    height: 8%;
+    left: 5%;
+}
+
+.imgback{
+    position: absolute;
+    left: -23%;
+    top: -100%;
+    max-width: 25px;
+}
+
 .support-icon{
     position: absolute;
     width: 13%;
@@ -36,13 +75,21 @@
 
 .ioniaicon{
     position: relative;
-    max-width: 52%;
+    max-width: 90px;
     max-height: auto;
-    top: 10%;
-    left: 22%;
+    top: 17%;
+    left: 27%;
 }
 
-.bottom{
+.ioniaicon:hover{
+    position: relative;
+    max-width: 100px;
+    max-height: auto;
+    top: 12%;
+    left: 25%;
+}
+
+.footer{
     position: absolute;
     width: 100%;
     height: 5%;
@@ -73,12 +120,23 @@
     background-image: url("img/ioniapaisagem.jpg");  
 }
 
+.bgtitle{
+    position: relative;
+    width: 19%;
+    height: 11%;
+    top: -4%;
+    left: 21%;
+    box-shadow: -8px 8px 4px #00000040, 8px 8px 4px #00000040;
+    background: #0b1d1ca4;
+    border-radius: 13px;
+}
+
 .bgtext{
     position: absolute;
-    width: 60%;
+    width: 68%;
     height: 70%;
-    right: 10%;
-    top: 20%;
+    right: 2%;
+    top: 18%;
     background: #091212b3;
     border-radius: 12px;
     box-shadow: 5px 5px 4px #00000040, 8px 8px 4px #00000040;
@@ -88,132 +146,313 @@
     position: relative;
     font-size: 50px;
     font-weight: 600; 
-    top: -10%;
-    left: 41%;
+    top: 10%;
+    left: 18%;
     color: #fdfdfd;
-    -webkit-text-stroke: 0px #0b1d1c;
+    -webkit-text-stroke: 1.7px #c4b998;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .ioniatext1{
     position: relative;
-    font-size: 15px;
-    top: -15%;
-    left: 0%;
+    font-size: 17px;
+    top: -3%;
+    left: 2%;
+    margin-right: 3%;
     color: #fdfdfd;
 }
 
 .ioniatext2{
     position: relative;
-    font-size: 15px;
-    top: -15%;
-    left: 0%;
+    font-size: 17px;
+    top: -3%;
+    left: 2%;
+    margin-right: 3%;
     color: #fdfdfd;
 }
 
 .ioniatext3{
     position: relative;
-    font-size: 15px;
-    top: -15%;
-    left: 0%;
+    font-size: 17px;
+    top: -3%;
+    left: 2%;
+    margin-right: 3%;
     color: #fdfdfd;
 }
 
 .ioniatext4{
     position: relative;
-    font-size: 15px;
-    top: -15%;
-    left: 0%;
+    font-size: 17px;
+    top: -3%;
+    left: 2%;
+    margin-right: 3%;
     color: #fdfdfd;
 }
 
 .ioniatext5{
     position: relative;
-    font-size: 15px;
-    top: -15%;
-    left: 0%;
+    font-size: 17px;
+    top: 0%;
+    left: 2%;
+    margin-right: 3%;
     color: #fdfdfd;
 }
 
 .champions{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     font-size: 25px;
     font-weight: 600; 
-    top: 1%;
+    top: 3%;
     left: 10%;
-    color: #e7a644;
+    color: #da8f2d;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .ahri{
-     font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .akali{
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .irelia{
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .kayn{
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .rakan{
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
 }
 
 .xayah{
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; 
-    top: 0.1%;
+    top: 3%;
     left: 10%;
-    color: #37b2e2;
+    color: #ffffff;
     -webkit-text-stroke: 1px #0b1d1c63;
     text-shadow: 3px 5px 4px #00000017;
+}
+
+.ahri-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.ahri-imgs{
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+.ahri-antiga-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.text-ahri-img{
+    margin-left: 150px;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.text-ahri-antiga-img{
+    margin-left: 590px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: #fdfdfd;
+}
+
+.akali-img{
+    margin-left: 35px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.akali-imgs{
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+.akali-antiga-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.text-akali-img{
+    margin-left: 180px;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.text-akali-antiga-img{
+    margin-left: 590px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: #fdfdfd;
+}
+
+.irelia-img{
+    margin-left: 45px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.irelia-imgs{
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+.irelia-antiga-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.text-irelia-img{
+    margin-left: 180px;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.text-irelia-antiga-img{
+    margin-left: 560px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: #fdfdfd;
+}
+
+.kayn-img{
+    margin-left: 45px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.kayn-imgs{
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+.kayn-formas-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.text-kayn-img{
+    margin-top: 0px;
+    margin-left: 180px;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.text-kayn-formas-img{
+    margin-top: 0px;
+    margin-left: 570px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: #fdfdfd;
+}
+
+.rakan-img{
+    margin-left: -10px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.rakan-imgs{
+    position: relative;
+    top: -25px;
+    left: 70px;
+}
+
+.rakan-n-xayah-story-img{
+    margin-left: 7px;
+    max-width: auto;
+    max-height: 250px;
+}
+
+.text-rakan-img{
+    margin-top: 5px;
+    margin-left: 110px;
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.text-rakan-n-xayah-story-img{
+    margin-left: 550px;
+    font-size: 15px;
+    margin-top: -31px;
+    color: #fdfdfd;
+}
+
+.text1-footer{
+    margin-top: 8px;
+    margin-left: 390px;
+    font-size: 20px;
+    color: #fdfdfda6;
+}
+
+.div-text2-footer{
+    margin-top: -37px;
+    margin-left: 930px;
+}
+
+.text2-footer{
+    font-size: 20px;
+    color: #fdfdfda6;
 }
